@@ -22,7 +22,7 @@ jobs:
     - name: Install dependencies
       run: |
         sudo apt-get update
-        sudo apt-get install -y openjdk-17-jdk xmlstarlet zip lz4 make libz-dev
+        sudo apt-get install -y openjdk-17-jdk android-sdk-libsparse-utils xmlstarlet zip lz4 make libz-dev
         cd $GITHUB_WORKSPACE/make && chmod +x install.sh && ./install.sh
         
     - name: Download firmware
