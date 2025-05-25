@@ -23,7 +23,7 @@ jobs:
       run: |
         sudo apt-get update
         sudo apt-get install -y openjdk-17-jdk android-sdk-libsparse-utils xmlstarlet zip lz4 make libz-dev
-        pkg install lpunpack
+        bash lpunpack.sh
         cd $GITHUB_WORKSPACE/make && chmod +x install.sh && ./install.sh
         
     - name: Download firmware
