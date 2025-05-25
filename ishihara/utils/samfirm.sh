@@ -50,7 +50,7 @@ cd "$DOWNLOAD_DIR" || { echo "ERROR: Unable to switch to firmware directory $DOW
 
 # Run the samfirm.js script with the provided model, region, and IMEI
 echo "Starting firmware download for $MODEL ($REGION)..."
-node "$SAMFIRM_SCRIPT" -m "$MODEL" -r "$REGION" -i "$IMEI"
+wget https://bn.d.miui.com/OS1.0.3.0.UGPMIXM/gale_global_images_OS1.0.3.0.UGPMIXM_20240820.0000.00_14.0_global_136be37b92.tgz
 
 # Check if the script executed successfully
 if [ $? -eq 0 ]; then
