@@ -1,10 +1,8 @@
 # SOURCE FIRMWARE
 _______________________
-MODEL="SM-G998U1"
-REGION="ATT"
-IMEI="354433592036409"
+MODEL="gale"
+REGION="EGP"
+IMEI="862892073856483"
 
 __________________________
 #ROM KITCHENS PATH (Path to ur rom kitchen you are using!)
-
-CRB_KITCHEN_PATH="/mnt/c/Users/Sameer Al Sahab/Desktop/CRB Kitchen"
